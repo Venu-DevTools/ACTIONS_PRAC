@@ -7,5 +7,5 @@ jobs:
     runs-on: aws
     steps:
       - name: Echo text
-        run: echo "Hello, world!"
+        run: echo "Hello, world!" > hello.txt
       
